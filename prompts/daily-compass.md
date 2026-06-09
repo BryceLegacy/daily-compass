@@ -20,7 +20,7 @@ Use these inputs in order:
 
 Meeting notes provider:
 
-- The author uses Granola.
+- Example provider: Granola MCP.
 - Users may bring any note taker that exposes notes through an MCP connector or local export.
 
 ## Output

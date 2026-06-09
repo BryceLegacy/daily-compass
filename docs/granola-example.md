@@ -1,6 +1,6 @@
 # Granola Example
 
-The author uses Granola as the meeting-note source.
+This repo uses Granola MCP as the example meeting-note source.
 
 Daily Compass does not require Granola. The important pattern is:
 
@@ -16,3 +16,13 @@ When adapting this to Granola or another note taker:
 - preserve private citations only in private outputs.
 - use mock notes in public examples.
 
+## Codex + Granola MCP
+
+In Codex, connect your Granola MCP/connector first. Daily Compass should query recent notes by configured meeting title, date, and keywords.
+
+Use safe defaults:
+
+- prefer summaries over transcript text.
+- preserve private citations only in private output.
+- fall back to local notes when the connector is unavailable.
+- do not copy raw meeting content into public examples.

@@ -82,7 +82,7 @@ If you do not have one, write `Local knowledge base required: no` in your privat
 
 ## Meeting Notes
 
-The author uses Granola. You can use Granola, another note taker, a meeting-notes MCP server, or sanitized markdown exports.
+I use Granola MCP. You can use Granola, another note taker, a meeting-notes MCP server, or sanitized markdown exports.
 
 See:
 

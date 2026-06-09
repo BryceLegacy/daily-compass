@@ -1,14 +1,10 @@
 .DS_Store
 .env
-.venv/
-__pycache__/
-*.pyc
 
 # Keep private notes, exports, transcripts, and real outputs out of git.
 private/
 local/
 outputs/private/
-config.toml
 daily-compass.local.md
 *.local.md
 tmp/

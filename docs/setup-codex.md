@@ -43,6 +43,14 @@ Schedule:
 Weekday mornings at 6:00 a.m. in your configured time zone.
 ```
 
+No-code setup steps:
+
+1. Create a new Codex Automation.
+2. Set the schedule to weekday mornings at 6:00 a.m. in your configured time zone.
+3. Set the workspace to this repo or your private Daily Compass folder.
+4. Paste the prompt below.
+5. Run once manually before enabling the recurring schedule.
+
 Prompt:
 
 ```text

@@ -35,3 +35,4 @@
 - `samples/meeting-notes/2026-01-14-daily-team-sync.md`
 - `samples/meeting-notes/2026-01-13-project-planning.md`
 - `samples/context-packs/project-alpha-context.md`
+- `samples/people/contacts.example.yaml`

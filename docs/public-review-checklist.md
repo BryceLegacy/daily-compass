@@ -9,7 +9,7 @@ Use this before publishing the repo, screenshots, example outputs, a LinkedIn po
 - The setup path does not require code or package installation.
 - Codex Automations are presented as the reference workflow.
 - Recurring meetings are user-configurable.
-- Stand-up prep is presented as one example, not the whole product.
+- The recurring team meeting is presented as one example, not the whole product.
 - Granola is mentioned as the author's tool, not a requirement.
 - Local knowledge base usage is optional.
 
