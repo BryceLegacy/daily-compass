@@ -6,7 +6,7 @@ Copy this file to `daily-compass.local.md` or paste it into Codex, Claude, or an
 
 - Role: Product lead
 - Time zone: America/Chicago
-- Morning delivery time: 08:00
+- Morning delivery time: 06:00
 - Daily or nightly brief reminder time: 17:00
 - Preferred brief length: readable in under two minutes
 - Preferred source style: short source trail, no raw transcript dumps
@@ -14,8 +14,8 @@ Copy this file to `daily-compass.local.md` or paste it into Codex, Claude, or an
 ## Automation
 
 - Reference workflow: Codex Automation
-- Schedule: weekday mornings
-- Delivery goal: before the first relevant recurring meeting
+- Schedule: weekday mornings at 06:00
+- Delivery goal: before the recurring 10:00 team meeting
 - Manual fallback: paste the prompt and configuration into Codex, Claude, or another agent
 
 ## Meeting Notes Source
@@ -42,7 +42,7 @@ For your private setup, replace the sample paths with your own local folders. Do
 - Cadence: weekdays
 - Usual time: 10:00
 - Priority: high
-- Purpose: coordinate active work, blockers, and follow-ups
+- Purpose: recurring team meeting to coordinate active work, blockers, and follow-ups
 - Keywords/title patterns: daily, team sync, coordination
 - Lookback: 2 business days
 - Output focus: what changed, open loops, personal follow-ups, risks

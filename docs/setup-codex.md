@@ -2,11 +2,11 @@
 
 Daily Compass is designed around Codex Automations. The reference workflow is:
 
-1. Codex runs on a weekday morning schedule.
+1. Codex runs around 6:00 a.m. on weekdays.
 2. It reads your private Daily Compass configuration.
 3. It reads the newest daily or nightly brief first, if configured.
 4. It checks recent meeting notes through your meeting-notes source.
-5. It gives you a short morning brief before your recurring meetings start.
+5. It gives you a short morning brief before your recurring 10:00 a.m. team meeting.
 
 You can still run the prompt manually while setting it up.
 
@@ -28,8 +28,8 @@ Verify the sample output before adding private note sources or creating an autom
 Before creating a Codex Automation, confirm:
 
 - your private `daily-compass.local.md` uses your correct time zone.
-- morning delivery time is when you want the brief delivered.
-- the schedule runs before the first relevant recurring meeting.
+- morning delivery time is set to 6:00 a.m. or another time that works for you.
+- the schedule runs before the recurring 10:00 a.m. team meeting or whichever meeting you configure.
 - recurring meetings are configured.
 - meeting notes access works.
 - private notes live outside the public repo.
@@ -40,7 +40,7 @@ Before creating a Codex Automation, confirm:
 Schedule:
 
 ```text
-Weekday mornings at your configured morning delivery time.
+Weekday mornings at 6:00 a.m. in your configured time zone.
 ```
 
 Prompt:

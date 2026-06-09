@@ -4,7 +4,7 @@
 
 Daily Compass helps you maintain focus and direction every morning with a brief drawn from recent meetings, notes, and context.
 
-I use Granola for meeting notes and Codex Automations to run the workflow every morning. Codex built the recurring automation around my daily flow: read the newest local brief first, check recent meeting notes, prioritize recurring meetings, and give me a short brief before the day starts.
+I use Granola for meeting notes and Codex Automations to run the workflow around 6:00 a.m. Codex built the recurring automation around my daily flow: read the newest local brief first, check recent meeting notes, prioritize my recurring 10:00 a.m. team meeting, and give me a short brief before the day starts.
 
 The pattern is provider-neutral. You can bring any meeting-note source your agent can read, including an MCP connector, markdown exports, or local notes.
 
@@ -19,7 +19,7 @@ The workflow is simple: define the meetings that matter, point the agent at rece
 5. Add your recurring meetings.
 6. Connect your meeting-note source.
 7. Optionally add a local daily brief folder or context packs.
-8. Turn it into a Codex Automation that runs every morning, or run it manually.
+8. Turn it into a Codex Automation that runs around 6:00 a.m., or run it manually.
 
 ## Why It Is Useful
 

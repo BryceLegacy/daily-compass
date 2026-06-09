@@ -2,7 +2,7 @@
 
 ## 1. Today's Meeting Map
 
-- Daily Team Sync at 10:00: likely focused on review scope, freshness status, refresh timing, and review readiness.
+- Daily Team Sync at 10:00: recurring team meeting likely focused on review scope, freshness status, refresh timing, and review readiness.
 - Weekly Planning is configured but not due today in the sample setup.
 
 ## 2. What To Remember

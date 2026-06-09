@@ -17,7 +17,7 @@ Questions to answer:
 
 Reference setup:
 
-- Codex with a weekday morning Automation.
+- Codex with a weekday 6:00 a.m. Automation.
 - Claude or another agent as a manual or reminder-driven fallback.
 
 ## 2. Choose Your Meeting Notes Source
@@ -69,7 +69,7 @@ Example:
 Meeting: Daily Team Sync
 Cadence: weekdays
 Usual time: 10:00
-Purpose: coordinate active work, blockers, and follow-ups
+Purpose: recurring team meeting to coordinate active work, blockers, and follow-ups
 Keywords: daily, team sync, coordination
 Lookback: 2 business days
 Output focus: what changed, open loops, personal follow-ups, risks
