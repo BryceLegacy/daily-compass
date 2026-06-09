@@ -1,6 +1,14 @@
 # Codex Setup
 
-Daily Compass can run manually or as a recurring Codex automation.
+Daily Compass is designed around Codex Automations. The reference workflow is:
+
+1. Codex runs on a weekday morning schedule.
+2. It reads your private Daily Compass configuration.
+3. It reads the newest daily or nightly brief first, if configured.
+4. It checks recent meeting notes through your meeting-notes source.
+5. It produces a short operating brief before your recurring meetings start.
+
+You can still run the prompt manually while setting it up.
 
 ## Manual First
 
@@ -17,16 +25,47 @@ Verify the sample output before adding private note sources or creating an autom
 
 ## Automation Checklist
 
-Before creating a recurring automation, confirm:
+Before creating a Codex Automation, confirm:
 
 - your private `daily-compass.local.md` uses your correct time zone.
 - morning delivery time is when you want the brief delivered.
+- the schedule runs before the first relevant recurring meeting.
 - recurring meetings are configured.
 - meeting notes access works.
 - private notes live outside the public repo.
 - the privacy checklist has been reviewed.
 
-## Suggested Automation Prompt
+## Suggested Codex Automation Setup
+
+Schedule:
+
+```text
+Weekday mornings at your configured morning delivery time.
+```
+
+Prompt:
+
+```text
+Run Daily Compass.
+
+Use prompts/daily-compass.md as the operating prompt.
+Use my private Daily Compass configuration at daily-compass.local.md.
+Read the newest daily or nightly brief first if configured.
+Then check recent meeting notes from my configured meeting-notes source.
+Prioritize today's recurring meetings and produce a short operating brief with:
+
+1. today's meeting map
+2. what to remember
+3. what appears to be happening next
+4. my follow-ups
+5. risks / watchouts
+6. source trail
+
+Do not invent owners, deadlines, decisions, or approvals.
+If a source is unavailable, continue with the remaining sources and clearly label the limitation.
+```
+
+## Suggested Automation Prompt Source
 
 Use `prompts/daily-compass.md` as the base prompt and fill in the paths and meeting configuration from `daily-compass.local.md`.
 

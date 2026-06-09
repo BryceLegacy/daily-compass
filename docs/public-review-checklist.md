@@ -7,6 +7,7 @@ Use this before publishing the repo, screenshots, example outputs, a LinkedIn po
 - The repo explains Daily Compass in the first screen.
 - The quickstart works with sample data only.
 - The setup path does not require code or package installation.
+- Codex Automations are presented as the reference workflow.
 - Recurring meetings are user-configurable.
 - Stand-up prep is presented as one example, not the whole product.
 - Granola is mentioned as the author's tool, not a requirement.
@@ -45,4 +46,3 @@ Use this before publishing the repo, screenshots, example outputs, a LinkedIn po
 - Sample output matches sample inputs.
 - Docs do not reference deleted scripts or tools.
 - Repo status is clean before publishing.
-

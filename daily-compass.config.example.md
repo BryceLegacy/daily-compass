@@ -11,6 +11,13 @@ Copy this file to `daily-compass.local.md` or paste it into Codex, Claude, or an
 - Preferred brief length: readable in under two minutes
 - Preferred source style: short source trail, no raw transcript dumps
 
+## Automation
+
+- Reference workflow: Codex Automation
+- Schedule: weekday mornings
+- Delivery goal: before the first relevant recurring meeting
+- Manual fallback: paste the prompt and configuration into Codex, Claude, or another agent
+
 ## Meeting Notes Source
 
 - Provider I use: Granola

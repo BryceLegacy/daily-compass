@@ -15,6 +15,11 @@ Questions to answer:
 - Can it create recurring automations or reminders?
 - If not, will you run Daily Compass manually or from a calendar reminder?
 
+Reference setup:
+
+- Codex with a weekday morning Automation.
+- Claude or another agent as a manual or reminder-driven fallback.
+
 ## 2. Choose Your Meeting Notes Source
 
 - Granola
@@ -102,4 +107,3 @@ When the sample works:
 3. Replace sample paths with private local paths, if using a local knowledge base.
 4. Add your meeting-note provider details.
 5. Keep `daily-compass.local.md` out of git.
-
