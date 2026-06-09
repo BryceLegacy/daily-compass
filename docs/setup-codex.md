@@ -3,25 +3,37 @@
 Daily Compass is designed around Codex Automations. The reference workflow is:
 
 1. Codex runs around 6:00 a.m. on weekdays.
-2. It reads your private Daily Compass configuration.
-3. It reads the newest daily or nightly brief first, if configured.
-4. It checks recent meeting notes through your meeting-notes source.
-5. It gives you a short morning brief before your recurring 10:00 a.m. team meeting.
+2. It uses sample data until private configuration is provided.
+3. It reads your private Daily Compass configuration when `daily-compass.local.md` exists.
+4. It reads the newest daily or nightly brief first, if configured.
+5. It checks recent meeting notes through your configured meeting-note source.
+6. It gives you a short morning brief before your recurring 10:00 a.m. team meeting.
 
-You can still run the prompt manually while setting it up.
+The expected setup flow is conversational: ask Codex to create the automation, then confirm it appears in the Codex Automations tab.
 
-## Manual First
+## Create The Automation
 
-Start with the sample data. In Codex, ask:
+In Codex, paste:
 
 ```text
-Use prompts/daily-compass.md as the operating prompt.
-Use daily-compass.config.example.md as the sample configuration.
-Use samples/ as the only source data.
-Generate a Daily Compass brief.
+Use prompts/create-codex-automation.md to create the Daily Compass Codex Automation.
+It should run on sample data until I configure private notes or a private Daily Compass configuration.
 ```
 
-Verify the sample output before adding private note sources or creating an automation.
+Codex should create a recurring automation named `Daily Compass`. After creation, verify it appears in the Codex Automations tab.
+
+## Sample Mode First
+
+The automation should use sample data until configured otherwise:
+
+- `daily-compass.config.example.md`
+- `prompts/daily-compass.md`
+- `samples/daily-briefs/`
+- `samples/meeting-notes/`
+- `samples/context-packs/`
+- `samples/people/contacts.example.yaml`
+
+Only after the sample run works should you add private note paths, private context, or a real meeting-note connector.
 
 ## Automation Checklist
 
@@ -45,11 +57,11 @@ Weekday mornings at 6:00 a.m. in your configured time zone.
 
 No-code setup steps:
 
-1. Create a new Codex Automation.
+1. Ask Codex to create a new Automation using `prompts/create-codex-automation.md`.
 2. Set the schedule to weekday mornings at 6:00 a.m. in your configured time zone.
 3. Set the workspace to this repo or your private Daily Compass folder.
-4. Paste the prompt below.
-5. Run once manually before enabling the recurring schedule.
+4. Keep sample mode enabled until private config exists.
+5. Run once manually before relying on the recurring schedule.
 
 Prompt:
 

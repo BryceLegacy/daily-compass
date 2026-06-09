@@ -20,6 +20,8 @@ Reference setup:
 - Codex with a weekday 6:00 a.m. Automation.
 - Claude or another agent as a manual or reminder-driven fallback.
 
+Codex setup should create an Automation that appears in the Codex Automations tab. It should run on sample data until private configuration is provided.
+
 ## 2. Choose Your Meeting Notes Source
 
 - Granola
@@ -87,7 +89,14 @@ Keep reminders short. They should prompt the workflow, not contain private meeti
 
 ## 6. Run A Sample First
 
-Paste this into your agent:
+For Codex, create the automation first:
+
+```text
+Use prompts/create-codex-automation.md to create the Daily Compass Codex Automation.
+It should run on sample data until I configure private notes or a private Daily Compass configuration.
+```
+
+For manual testing in another agent, paste:
 
 ```text
 Use prompts/daily-compass.md as the operating prompt.

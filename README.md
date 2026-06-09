@@ -34,14 +34,14 @@ git clone https://github.com/BryceLegacy/daily-compass.git
 cd daily-compass
 ```
 
-Then use Codex, Claude, or another agent:
+Then open the repo in Codex and paste:
 
 ```text
-Use prompts/daily-compass.md as the operating prompt.
-Use daily-compass.config.example.md as the sample configuration.
-Use the files under samples/ as mock source data.
-Produce a Daily Compass brief using only the sample data.
+Use prompts/create-codex-automation.md to create the Daily Compass Codex Automation.
+It should run on sample data until I configure private notes or a private Daily Compass configuration.
 ```
+
+Codex should create a recurring automation that appears in the Codex Automations tab.
 
 No Python, package install, or CLI setup is required for the basic workflow.
 
@@ -93,7 +93,9 @@ See:
 
 Daily Compass works best as a recurring **Codex Automation**. That is the reference workflow for this repo: Codex runs the prompt around 6:00 a.m. on weekdays and delivers the brief before a recurring 10:00 a.m. team meeting.
 
-You can also run the same prompt manually in Codex, Claude, or another agent.
+Start by asking Codex to create the automation from [prompts/create-codex-automation.md](prompts/create-codex-automation.md). It should default to the sample config and sample files until you add `daily-compass.local.md` or configure a private meeting-note source.
+
+You can also run the same Daily Compass prompt manually in Codex, Claude, or another agent.
 
 Configurable fields:
 

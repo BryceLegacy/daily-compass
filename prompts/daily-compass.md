@@ -6,7 +6,9 @@ Use the configured recurring meetings to decide what matters today. Do not assum
 
 ## Configuration
 
-Use the user's Daily Compass configuration file if one is provided. If none is provided, use `daily-compass.config.example.md` and the sample files.
+Use `daily-compass.local.md` if it exists. If it does not exist, use `daily-compass.config.example.md` and the sample files.
+
+When using the example config and sample files, clearly label the output as a sample run.
 
 ## Inputs To Use
 
