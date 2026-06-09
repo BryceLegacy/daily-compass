@@ -4,6 +4,8 @@ Daily Compass is a local-first template for turning recurring meetings, recent n
 
 I use this pattern with Granola and Codex. The template is intentionally provider-neutral: bring any meeting-note tool that can expose notes through an MCP connector, exported markdown, or another local source.
 
+The repo is intentionally no-code. It is a set of prompts, sample files, setup questions, and privacy guardrails that you can use with Codex, Claude, or another agent.
+
 ## What It Helps With
 
 - Preparing for recurring meetings
@@ -24,7 +26,7 @@ I use this pattern with Granola and Codex. The template is intentionally provide
 ## Quickstart With Sample Data
 
 ```bash
-git clone https://github.com/your-name/daily-compass.git
+git clone https://github.com/BryceLegacy/daily-compass.git
 cd daily-compass
 ```
 
@@ -40,6 +42,16 @@ Produce a Daily Compass brief using only the sample data.
 No Python, package install, or CLI setup is required for the basic workflow.
 
 For your private setup, copy `daily-compass.config.example.md` to `daily-compass.local.md`, update it with your meeting names and local paths, and keep that private file out of git.
+
+## First-Run Setup
+
+Use [Setup Worksheet](docs/setup-worksheet.md) before wiring this into real notes. It helps you answer:
+
+- what recurring meetings should be tracked
+- whether you have a local knowledge base
+- whether you use Granola, another meeting-note MCP connector, or markdown exports
+- whether your agent supports recurring automations
+- what reminders should be configured
 
 ## Configure Your Recurring Meetings
 
@@ -62,7 +74,7 @@ A local knowledge base is useful, but not required. If you have one, point Daily
 - lightweight people/contact context
 - durable project or operating context
 
-If you do not have one, set `knowledge_base.enabled = false` and use meeting notes only.
+If you do not have one, write `Local knowledge base required: no` in your private configuration and use meeting notes only.
 
 ## Meeting Notes
 
@@ -79,28 +91,37 @@ Daily Compass works best as a recurring morning automation, but you can also run
 
 Configurable fields:
 
-- `profile.timezone`
-- `profile.morning_delivery_time`
-- `profile.daily_brief_expected_time`
-- `recurring_meetings`
-- `reminders.nightly_brief`
-- `reminders.followups`
+- time zone
+- morning delivery time
+- daily or nightly brief reminder time
+- recurring meetings
+- meeting-note source
+- local knowledge base usage
+- reminders
 
 For Codex setup, see [Codex Setup](docs/setup-codex.md).
 
 For Claude or another agent, see [Claude / Other Agent Setup](docs/setup-claude-other.md).
 
+For setup questions and reminder configuration, see [Setup Worksheet](docs/setup-worksheet.md).
+
 ## Privacy And Security
 
 Do not publish real meeting notes, raw transcripts, emails, private paths, credentials, client names, or proprietary product details.
 
-Before publishing changes, use the checklist in [Privacy And Security](docs/privacy-security.md).
-
-See [Privacy And Security](docs/privacy-security.md).
+Before publishing changes, use [Privacy And Security](docs/privacy-security.md) and [Public Review Checklist](docs/public-review-checklist.md).
 
 ## Example Output
 
 See [sanitized example output](examples/output/sanitized-daily-compass-brief.md).
+
+## Demo Script
+
+See [Demo Script](docs/demo-script.md) for a short explanation you can adapt for a post, video, or walkthrough.
+
+## What This Is Not
+
+Daily Compass is not a meeting-note connector, transcript store, or project management system. It is a public-safe operating template for agents that can already read the notes and files you choose to provide.
 
 ## Project Status
 

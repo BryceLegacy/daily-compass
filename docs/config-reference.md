@@ -10,14 +10,14 @@ cp daily-compass.config.example.md daily-compass.local.md
 
 Or copy the sections into your preferred private notes app.
 
-## profile
+## Profile
 
 - `Role`: brief role description used to shape output.
 - `Time zone`: user's local time zone.
 - `Morning delivery time`: target time for the daily brief.
 - `Daily or nightly brief reminder time`: expected time for the daily note reminder.
 
-## knowledge_base
+## Local Knowledge Base
 
 - whether local context is required.
 - daily brief folder.
@@ -25,14 +25,14 @@ Or copy the sections into your preferred private notes app.
 - durable context packs.
 - whether the agent should continue without local context.
 
-## meeting_notes
+## Meeting Notes
 
 - provider label, such as Granola or another note taker.
 - connector type, such as MCP, markdown export, or local notes.
 - source location.
 - default lookback window.
 
-## recurring_meetings
+## Recurring Meetings
 
 Each recurring meeting should define:
 

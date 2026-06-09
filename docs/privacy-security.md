@@ -54,7 +54,7 @@ Automated scans are useful, but not sufficient. Public examples should use mock 
 
 For regulated, client-facing, financial, health, legal, or security-sensitive workflows:
 
-- avoid raw transcript ingestion where summaries are enough.
+- avoid raw transcript use where summaries are enough.
 - keep source data local.
 - separate public examples from private execution.
 - preserve audit trails for real decisions.

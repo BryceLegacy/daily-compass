@@ -34,12 +34,22 @@ Produce:
 5. Risks / watchouts
 6. Source trail
 
+Use concise bullets. Optimize for a brief someone can read before the first relevant meeting of the day.
+
+## Source Handling
+
+- Prefer cited summaries over copied transcript text.
+- Include source names, dates, note titles, or safe links when available.
+- If a source is private, cite it in the private output only. Do not convert private source paths into public examples.
+- If source evidence is weak, label the item as inferred or uncertain.
+
 ## Rules
 
 - Do not invent owners, deadlines, or decisions.
 - Separate explicit action items from inferred reminders.
 - If the local knowledge base is missing, continue with meeting notes only.
 - If meeting notes are unavailable, continue with local notes only and mark the brief as limited.
+- If both real meeting notes and real local context are unavailable, use only the sample files and say this is a sample run.
 - Keep the brief readable in under two minutes.
 - Avoid raw transcript dumps.
 - Include source references, but do not leak private paths, emails, proprietary details, or sensitive meeting content in public examples.

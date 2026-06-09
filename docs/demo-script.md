@@ -1,0 +1,31 @@
+# Demo Script
+
+## Short Version
+
+Daily Compass is a no-code template for turning recurring meetings, recent notes, and optional local context into a short daily operating brief.
+
+I use Granola for meeting notes and Codex for the automation, but the pattern is provider-neutral. You can bring any meeting-note source that your agent can read, including an MCP connector or markdown exports.
+
+The workflow is simple: define the meetings that matter, point the agent at recent notes and optional local context, then generate a brief with what to remember, what appears to be happening next, personal follow-ups, risks, and a source trail.
+
+## Walkthrough
+
+1. Start with the sample configuration.
+2. Run the prompt against only the mock files.
+3. Review the generated Daily Compass brief.
+4. Copy the example config into a private local note.
+5. Add your recurring meetings.
+6. Connect your meeting-note source.
+7. Optionally add a local daily brief folder or context packs.
+8. Turn it into a morning automation or run it manually.
+
+## Why It Is Useful
+
+Recurring meetings create a continuity problem. The important context is scattered across yesterday's notes, meeting summaries, action items, and personal reminders.
+
+Daily Compass gives the agent a simple operating structure so it can prepare a short brief without pretending to know more than the sources support.
+
+## Privacy Point
+
+The public repo uses mock data only. Real meeting notes, transcripts, private paths, client names, and credentials should stay out of public repos and public examples.
+

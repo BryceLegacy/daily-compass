@@ -8,12 +8,15 @@ Copy this file to `daily-compass.local.md` or paste it into Codex, Claude, or an
 - Time zone: America/Chicago
 - Morning delivery time: 08:00
 - Daily or nightly brief reminder time: 17:00
+- Preferred brief length: readable in under two minutes
+- Preferred source style: short source trail, no raw transcript dumps
 
 ## Meeting Notes Source
 
 - Provider I use: Granola
 - Other supported pattern: any meeting-note tool exposed through MCP, markdown exports, or an agent-readable notes source
 - Preferred lookback: 2-3 business days for daily meetings, 7 days for weekly planning
+- If meeting notes are unavailable: continue with local notes and clearly mark the brief as limited
 
 ## Local Knowledge Base
 
@@ -21,6 +24,7 @@ Copy this file to `daily-compass.local.md` or paste it into Codex, Claude, or an
 - Daily briefs folder: `samples/daily-briefs/`
 - People/contact index: `samples/people/contacts.example.yaml`
 - Context packs folder: `samples/context-packs/`
+- If the local knowledge base is unavailable: continue with meeting notes and clearly mark the missing context
 
 For your private setup, replace the sample paths with your own local folders. Do not commit private paths, real notes, transcripts, emails, or credentials.
 
@@ -51,6 +55,7 @@ For your private setup, replace the sample paths with your own local folders. Do
 - Morning Daily Compass brief: enabled
 - Daily or nightly note reminder: enabled
 - Follow-up reminder: optional
+- Reminder style: short, action-oriented, no raw meeting content
 
 ## Privacy Rules
 
@@ -59,4 +64,3 @@ For your private setup, replace the sample paths with your own local folders. Do
 - Cite sources safely.
 - Label inferred follow-ups as inferred.
 - Do not invent owners, deadlines, approvals, or decisions.
-

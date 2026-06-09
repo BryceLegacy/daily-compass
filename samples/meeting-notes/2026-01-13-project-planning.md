@@ -4,14 +4,14 @@ Sample meeting note. This file is synthetic.
 
 ## Summary
 
-The team agreed that the first demo should focus on a single reporting workflow. Additional workflows were deferred until the first review is complete.
+The team agreed that the first review should focus on a single reporting packet. Additional workstreams were deferred until the first review is complete.
 
 ## Decisions
 
-- Keep the first demo narrow.
-- Do not add secondary workflows before the review.
+- Keep the first review narrow.
+- Do not add secondary workstreams before the review.
 
 ## Open Questions
 
-- Who owns the final demo walkthrough?
-- Should retry behavior be visible to reviewers or kept as implementation detail?
+- Who owns the final review walkthrough?
+- Should refresh timing be visible to reviewers or kept as background detail?

@@ -1,17 +1,16 @@
 people:
   - id: alex
     display_name: Alex
-    role: Product
+    role: Planning
     notes:
       - Owns launch criteria and decision summaries in the sample workflow.
   - id: jordan
     display_name: Jordan
-    role: Engineering
+    role: Analytics
     notes:
-      - Owns ingestion edge cases and retry behavior in the sample workflow.
+      - Owns freshness checks and refresh timing in the sample workflow.
   - id: taylor
     display_name: Taylor
     role: Operations
     notes:
-      - Owns final review checklist and demo readiness in the sample workflow.
-
+      - Owns final review checklist and review readiness in the sample workflow.
