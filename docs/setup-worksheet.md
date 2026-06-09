@@ -20,7 +20,7 @@ Reference setup:
 - Codex with a weekday 6:00 a.m. Automation.
 - Claude or another agent as a manual or reminder-driven fallback.
 
-Codex setup should create an Automation that appears in the Codex Automations tab. It should run on sample data until private configuration is provided.
+Codex setup should start with a near-term sample demo automation that appears in the Codex Automations tab and posts a sample brief in chat. The real recurring automation should stay in sample mode until private configuration is provided.
 
 ## 2. Choose Your Meeting Notes Source
 
@@ -87,14 +87,16 @@ Common reminders:
 
 Keep reminders short. They should prompt the workflow, not contain private meeting content.
 
-## 6. Run A Sample First
+## 6. Run A Sample Demo First
 
-For Codex, create the automation first:
+For Codex, start onboarding first:
 
 ```text
-Use prompts/create-codex-automation.md to create the Daily Compass Codex Automation.
-It should run on sample data until I configure private notes or a private Daily Compass configuration.
+Help me get started adding this workflow automation.
+Use the onboarding flow in prompts/onboard-daily-compass.md.
 ```
+
+Codex should create a near-term sample demo automation before asking for private setup details.
 
 For manual testing in another agent, paste:
 

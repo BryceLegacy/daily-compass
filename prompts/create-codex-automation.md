@@ -2,6 +2,8 @@
 
 Use this prompt inside Codex to create the recurring Daily Compass automation.
 
+If the user is just getting started, prefer the guided onboarding flow in `prompts/onboard-daily-compass.md`. That flow creates a near-term sample demo first, then asks the setup questions needed to configure the real recurring automation.
+
 ```text
 Create a Codex Automation named Daily Compass.
 
@@ -33,4 +35,3 @@ Do not write private notes, transcripts, credentials, or raw meeting content int
 ```
 
 After Codex creates it, confirm it appears in the Codex Automations tab.
-

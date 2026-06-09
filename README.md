@@ -8,6 +8,10 @@ I tried to architect the prompts so you can use the meeting-note tool of your ch
 
 This repo is intentionally no-code so you can build from it yourself. I would love to hear what you do with this foundation.
 
+## For Codex
+
+If a user shares this repo and asks for help getting started, follow [prompts/onboard-daily-compass.md](prompts/onboard-daily-compass.md). Start with a sample demo automation, show the user how the brief arrives in chat, then ask for the details needed to configure their real workflow.
+
 ## What It Helps With
 
 - Start the day with the right context
@@ -37,11 +41,11 @@ cd daily-compass
 Then open the repo in Codex and paste:
 
 ```text
-Use prompts/create-codex-automation.md to create the Daily Compass Codex Automation.
-It should run on sample data until I configure private notes or a private Daily Compass configuration.
+Help me get started adding this workflow automation.
+Use the onboarding flow in prompts/onboard-daily-compass.md.
 ```
 
-Codex should create a recurring automation that appears in the Codex Automations tab.
+Codex should start with a sample demo automation so you can see how a Daily Compass brief arrives in chat. After the demo, it should ask for the details needed to turn the sample into your real workflow.
 
 No Python, package install, or CLI setup is required for the basic workflow.
 
@@ -93,7 +97,7 @@ See:
 
 Daily Compass works best as a recurring **Codex Automation**. That is the reference workflow for this repo: Codex runs the prompt around 6:00 a.m. on weekdays and delivers the brief before a recurring 10:00 a.m. team meeting.
 
-Start by asking Codex to create the automation from [prompts/create-codex-automation.md](prompts/create-codex-automation.md). It should default to the sample config and sample files until you add `daily-compass.local.md` or configure a private meeting-note source.
+Start by asking Codex to run the onboarding flow from [prompts/onboard-daily-compass.md](prompts/onboard-daily-compass.md). It should create a near-term sample demo first, then help you configure the recurring automation. The real automation should default to the sample config and sample files until you add `daily-compass.local.md` or configure a private meeting-note source.
 
 You can also run the same Daily Compass prompt manually in Codex, Claude, or another agent.
 

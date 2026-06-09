@@ -13,7 +13,7 @@ Use samples/ as the only source data.
 Generate a Daily Compass brief.
 ```
 
-Codex users should prefer [Codex Setup](setup-codex.md), which creates a recurring automation in the Codex Automations tab.
+Codex users should prefer [Codex Setup](setup-codex.md), which starts with a sample demo automation and then creates a recurring automation in the Codex Automations tab.
 
 For your private setup, copy the example config into a private note and update it with your recurring meetings, note source, and optional local knowledge base paths.
 

@@ -9,18 +9,26 @@ Daily Compass is designed around Codex Automations. The reference workflow is:
 5. It checks recent meeting notes through your configured meeting-note source.
 6. It gives you a short morning brief before your recurring 10:00 a.m. team meeting.
 
-The expected setup flow is conversational: ask Codex to create the automation, then confirm it appears in the Codex Automations tab.
+The expected setup flow is conversational:
 
-## Create The Automation
+1. Ask Codex to start onboarding.
+2. Codex creates a near-term sample demo automation using the real automation builder/tool, not just a written checklist.
+3. The demo output appears in chat so the user can see what Daily Compass produces.
+4. Codex asks for the user's real meeting schedule, meeting-note source, local context, and reminder preferences.
+5. Codex creates or updates the recurring `Daily Compass` automation.
+
+## Start Onboarding
 
 In Codex, paste:
 
 ```text
-Use prompts/create-codex-automation.md to create the Daily Compass Codex Automation.
-It should run on sample data until I configure private notes or a private Daily Compass configuration.
+Help me get started adding this workflow automation.
+Use the onboarding flow in prompts/onboard-daily-compass.md.
 ```
 
-Codex should create a recurring automation named `Daily Compass`. After creation, verify it appears in the Codex Automations tab.
+Codex should first create a sample demo automation named `Daily Compass Demo`. It should use only sample files and should be scheduled for the soonest practical time based on the current time and what Codex Automations supports.
+
+After the demo runs, Codex should start the setup interview and create or update the recurring automation named `Daily Compass`.
 
 ## Sample Mode First
 
@@ -57,11 +65,12 @@ Weekday mornings at 6:00 a.m. in your configured time zone.
 
 No-code setup steps:
 
-1. Ask Codex to create a new Automation using `prompts/create-codex-automation.md`.
-2. Set the schedule to weekday mornings at 6:00 a.m. in your configured time zone.
-3. Set the workspace to this repo or your private Daily Compass folder.
-4. Keep sample mode enabled until private config exists.
-5. Run once manually before relying on the recurring schedule.
+1. Ask Codex to use `prompts/onboard-daily-compass.md`.
+2. Let Codex create a near-term sample demo automation.
+3. Review the sample brief when it arrives in chat.
+4. Answer the setup questions for your real workflow.
+5. Let Codex create or update the recurring `Daily Compass` automation.
+6. Keep sample mode enabled until private config exists.
 
 Prompt:
 

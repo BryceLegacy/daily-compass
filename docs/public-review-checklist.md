@@ -8,6 +8,7 @@ Use this before publishing the repo, screenshots, example outputs, a LinkedIn po
 - The quickstart works with sample data only.
 - The setup path does not require code or package installation.
 - The Codex setup flow creates an automation, not just a one-time prompt.
+- Onboarding starts with a sample demo automation before asking for private setup details.
 - Codex Automations are presented as the reference workflow.
 - Recurring meetings are user-configurable.
 - The recurring team meeting is presented as one example, not the whole product.
