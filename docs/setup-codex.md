@@ -6,7 +6,7 @@ Daily Compass is designed around Codex Automations. The reference workflow is:
 2. It reads your private Daily Compass configuration.
 3. It reads the newest daily or nightly brief first, if configured.
 4. It checks recent meeting notes through your meeting-notes source.
-5. It produces a short operating brief before your recurring meetings start.
+5. It gives you a short morning brief before your recurring meetings start.
 
 You can still run the prompt manually while setting it up.
 
@@ -52,7 +52,7 @@ Use prompts/daily-compass.md as the operating prompt.
 Use my private Daily Compass configuration at daily-compass.local.md.
 Read the newest daily or nightly brief first if configured.
 Then check recent meeting notes from my configured meeting-notes source.
-Prioritize today's recurring meetings and produce a short operating brief with:
+Prioritize today's recurring meetings and produce a short brief with:
 
 1. today's meeting map
 2. what to remember

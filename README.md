@@ -1,30 +1,31 @@
 # Daily Compass
 
-Daily Compass is a local-first template for turning recurring meetings, recent notes, and optional local context into a short daily operating brief.
+Daily Compass helps you maintain focus and direction every morning with a brief drawn from recent meetings, notes, and context.
 
-I use this pattern with Granola and **Codex Automations**. The core workflow is a Codex automation that runs every morning, reads the newest local brief first, checks recent meeting notes, and produces a short operating brief before my recurring meetings start.
+I use this with Granola and **Codex Automations**. Codex runs the workflow every morning, reads the newest local brief first, checks recent meeting notes, and gives me a short morning brief before my recurring meetings start.
 
-The template is intentionally provider-neutral: bring any meeting-note tool that can expose notes through an MCP connector, exported markdown, or another local source.
+The pattern is provider-neutral. Use Granola, another meeting-note tool with an MCP connector, exported markdown, or local notes.
 
-The repo is intentionally no-code. It is a set of prompts, sample files, setup questions, and privacy guardrails that you can use with Codex, Claude, or another agent.
+The repo is intentionally no-code. It gives you prompts, sample files, setup questions, and privacy guardrails you can use with Codex, Claude, or another agent.
 
 ## What It Helps With
 
-- Preparing for recurring meetings
-- Remembering unresolved follow-ups
-- Carrying continuity across days
-- Keeping a source trail for decisions, risks, and reminders
-- Using a local knowledge base when one exists, without making it required
+- Start the day with the right context
+- Prepare for recurring meetings
+- Remember unresolved follow-ups
+- Carry continuity across days
+- Keep a source trail for decisions, risks, and reminders
+- Use a local knowledge base when one exists, without making it required
 
 ## How It Works
 
-1. Run on a schedule, usually as a morning Codex Automation.
-2. Read your Daily Compass markdown configuration.
-3. Identify today's relevant recurring meetings.
-4. Read the newest daily or nightly brief, if configured.
+1. Run on a morning schedule, usually as a Codex Automation.
+2. Read your Daily Compass configuration.
+3. Find the recurring meetings that matter today.
+4. Read the newest daily or nightly brief, if you keep one.
 5. Check optional people and context files when useful.
-6. Pull recent notes from a meeting-notes MCP server, or use sample/local note files.
-7. Produce a short daily brief with a source trail.
+6. Pull recent meeting notes from your meeting-note source.
+7. Produce a short brief with follow-ups, watchouts, and a source trail.
 
 ## Quickstart With Sample Data
 
@@ -58,7 +59,7 @@ Use [Setup Worksheet](docs/setup-worksheet.md) before wiring this into real note
 
 ## Configure Your Recurring Meetings
 
-Daily Compass does not assume one specific workflow. During setup, define the meetings that matter to you:
+Daily Compass does not assume one specific workflow. Tell it which recurring meetings matter to you:
 
 - meeting name
 - cadence
@@ -126,7 +127,7 @@ See [Demo Script](docs/demo-script.md) for a short explanation you can adapt for
 
 ## What This Is Not
 
-Daily Compass is not a meeting-note connector, transcript store, or project management system. It is a public-safe operating template for agents that can already read the notes and files you choose to provide.
+Daily Compass is not a meeting-note connector, transcript store, or project management system. It is a public-safe workflow for agents that can already read the notes and files you choose to provide.
 
 ## Project Status
 

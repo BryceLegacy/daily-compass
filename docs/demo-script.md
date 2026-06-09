@@ -2,11 +2,11 @@
 
 ## Short Version
 
-Daily Compass is a no-code template for turning recurring meetings, recent notes, and optional local context into a short daily operating brief.
+Daily Compass helps you maintain focus and direction every morning with a brief drawn from recent meetings, notes, and context.
 
-I use Granola for meeting notes and Codex Automations to run the workflow every morning. Codex built the recurring automation around my daily flow: read the newest local brief first, check recent meeting notes, prioritize recurring meetings, and produce a short operating brief before the day starts.
+I use Granola for meeting notes and Codex Automations to run the workflow every morning. Codex built the recurring automation around my daily flow: read the newest local brief first, check recent meeting notes, prioritize recurring meetings, and give me a short brief before the day starts.
 
-The pattern is provider-neutral. You can bring any meeting-note source that your agent can read, including an MCP connector or markdown exports.
+The pattern is provider-neutral. You can bring any meeting-note source your agent can read, including an MCP connector, markdown exports, or local notes.
 
 The workflow is simple: define the meetings that matter, point the agent at recent notes and optional local context, then generate a brief with what to remember, what appears to be happening next, personal follow-ups, risks, and a source trail.
 
@@ -25,7 +25,7 @@ The workflow is simple: define the meetings that matter, point the agent at rece
 
 Recurring meetings create a continuity problem. The important context is scattered across yesterday's notes, meeting summaries, action items, and personal reminders.
 
-Daily Compass gives the agent a simple operating structure so it can prepare a short brief without pretending to know more than the sources support.
+Daily Compass gives the agent enough structure to prepare a useful brief without pretending to know more than the sources support.
 
 The automation is the key value: once configured, the brief shows up as part of the morning routine instead of becoming another manual task.
 
