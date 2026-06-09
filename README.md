@@ -4,9 +4,9 @@ Daily Compass helps you maintain focus and direction every morning with a brief 
 
 I use this with Granola and **Codex Automations**. Codex runs the workflow every morning, reads the newest local brief first, checks recent meeting notes, and gives me a short morning brief before my recurring meetings start.
 
-The pattern is provider-neutral. Use Granola, another meeting-note tool with an MCP connector, exported markdown, or local notes.
+I tried to architect the prompts so you can use the meeting-note tool of your choice: an MCP connector, exported markdown, or local notes. I use the Granola MCP setup.
 
-The repo is intentionally no-code. It gives you prompts, sample files, setup questions, and privacy guardrails you can use with Codex, Claude, or another agent.
+This repo is intentionally no-code so you can build from it yourself. I would love to hear what you do with this foundation.
 
 ## What It Helps With
 
